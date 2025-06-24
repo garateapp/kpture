@@ -4,7 +4,7 @@ import React, { useMemo } from 'react';
 import { Head, Link, useForm } from '@inertiajs/react'; // Importa useForm
 import { PageProps } from '@/types';
 import AppLayout from '@/layouts/app-layout';
-import FormRenderer from '@/Components/FormRenderer';
+//import FormRenderer from '@/Components/FormRenderer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronLeftIcon } from 'lucide-react';
