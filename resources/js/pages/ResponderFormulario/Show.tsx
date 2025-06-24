@@ -5,7 +5,7 @@ import React,{useEffect,useMemo }  from 'react';
 import { Head ,useForm,router } from '@inertiajs/react';
 import { PageProps } from '@/types';
 import AppLayout from '@/layouts/app-layout';
-import FormRenderer from '@/Components/FormRenderer';
+//import FormRenderer from '@/Components/FormRenderer';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Toaster } from "@/components/ui/sonner"
 import { toast } from "sonner"
