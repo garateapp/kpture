@@ -28,6 +28,7 @@ class SubmittedFormController extends Controller
      */
     public function store(Request $request, Formulario $form)
     {
+        Log::info('Form submitted', $request->all());
         $validator = Validator::make($request->all(), [
             'content' => ['required', 'array'],
         ]);
