@@ -4,7 +4,7 @@ import React from 'react';
 
 import { Head } from '@inertiajs/react';
 import AppLayout from '@/layouts/app-layout';
-
+import FormRenderer from '@/Components/FormRenderer';
 import { PageProps } from '@/types';
 import { Formulario as FormularioType } from '@/types/formulario'; // Asegúrate de tener este tipo
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
